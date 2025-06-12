@@ -31,6 +31,6 @@ def lambda_handler(event, context):
         response = agent(f"Can you get the weather for {location}")
 
     return {
-        "statusCode": 200,
-        "body": response
-    }
+    "statusCode": 200,
+    "body": str(response)
+}
