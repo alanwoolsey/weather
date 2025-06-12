@@ -27,7 +27,7 @@ jobs:
     - name: Deploy to AWS Lambda
       uses: aws-actions/aws-lambda-deploy@v1
       with:
-        function-name: your-lambda-name
+        function-name: weathertest
         zip-file: function.zip
         role: arn:aws:iam::<account_id>:role/<lambda-execution-role>
         handler: lambda_function.lambda_handler
