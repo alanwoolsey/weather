@@ -12,7 +12,7 @@ jobs:
       AWS_REGION: us-east-1                  # change if needed
       S3_BUCKET: alanweatherappbucket        # 🔁 replace this
       S3_KEY: lambda/function.zip            # S3 key path
-      LAMBDA_NAME: myweatherapp              # 🔁 replace this
+      LAMBDA_NAME: myweatherapp              # 🔁 replace thi
 
     steps:
     - name: Checkout code
