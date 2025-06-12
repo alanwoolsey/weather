@@ -1,4 +1,4 @@
-name: Deploy Lambda via S3 #test
+name: Deploy Lambda via S3
 
 on:
   push:
